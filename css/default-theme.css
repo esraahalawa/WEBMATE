@@ -1,1 +1,35 @@
+.about-us h1,.about-us span,.about-us p span,
+.design-us h1,.design-us span
+{
+   font-weight: 700; 
+}
+
+.images,.Designes,.blogs,.services,.contact
+{
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+min-height:421px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus
+{background: #9E9E9E;}
+.images .our-image,.Designes .our-design,.blogs .our-blog
+.services .our-service,.contact .our-contact
+{background: rgba(2,2,2,0.5); height:421px;}
+
+.about-us span,.design-us span,.blog-us span,.service-us h1
+.service-us h3,.our-samples .list-unstyled li a:hover, .glyphicon,
+ p span,.fields .skill h1:hover,.fields .skill h6:hover,.fields .skill-1 h1:hover,
+ .fields .skill-1 h6:hover,.fields .skill-2 h6:hover,.fields .skill-2 h1:hover
+{color: #009688;}
+
+.about-us hr,.design-us hr,.blog-us hr,.service-us hr
+{border-top: 2px solid #009688;}
 
