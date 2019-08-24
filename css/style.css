@@ -1,361 +1,642 @@
 body
 {
- font-family: 'PT Serif', serif;
-
 }
-.carousel-indicators h6
+/*Start about */
+.images
 {
-color: white;
-font-size: 15px;
-font-weight: bolder;
+ background: url("file:///C:/Users/Smart/Downloads/about-us-achievement-agreement-533405.jpg") no-repeat center center ;
 }
-.main p
+.about-us hr
 {
- text-align: center;
- font-size: 24px;
- font-weight: bolder;
- margin-top: 20px;
- color: #375790;
-
+ width: 16%;
+ float: left;
+ margin-top: 0px;
 }
-.shopping button
+.about-us span
+{font-size: 22px;}
+.about-us .list-unstyled span
 {
-padding: 10px;
-color: white;
-background: #375790;
-width: 79px;
-margin-left: 48%;
-border: none;
-margin-top: 13px;
-font-size: 15px;
- 
+ color: red;
+ font-size: 15px;
+ margin-right: 5px;
 }
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
-{
-
-}
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus
-{
-background-color: #2098d1;
-
-}
-.nav > li
-{
- margin-left: 12px;
-}
-
- .about
- {
-  margin-top: 98px;
-  min-height: 600px;
-  webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- }
- .about-us h3
- {
-  text-align: center;
-  font-size: 26px;
-  font-weight: bolder;
- }
- .about-us span
- {
-background-color: cadetblue;
-border-radius: 50%;
-margin-left: 44%;
-font-size: 27px;
- }
-  .about-us span:hover
-  {
-   color: white;
-   background-color: #3191bf;
-    border-radius: 0px;
-
-  }
-
- .about-us button
- {
-margin-left: 38%;
-margin-top: 30px;
-width: 22%;
-background-color: #3191bf;
-color: white;
-padding: 10px;
-border: none;
- }
-.image-us hr
-{
-     width: 17%;
-    margin-left: -1%;
-    margin-top: 3px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 2px solid #31708f;
-}
- .image-us span
- {
-  font-size: 26px;
-    color: darkcyan;
- }
-.image-us .list-unstyled
-{
- font-size: 16px;
-}
-.image-us li
-{
- margin-top: 16px
-}
-.image-us .glyphicon
-{
- float: none;
-    font-size: 15px;
-    margin-right: 5px;
-}
-.image-us p .infor
-{
- font-size: 17px;
-    color: black;
-    font-weight: bold;
-}
- .btn-success 
- {
-position: relative;
-    top: 61px;
-    padding: 10px;
-    color: #fff;
-    background-color: orange;
-    margin-left: 2%;
-    margin-top: 11px;
-    width: 72px;
-    font-size: 18px;
-    border-color: orange;
-
- }
- 
- .about-us h5
- {
-text-align: center;
-color: #31708f;
-font-size: 15px;
- }
-.about-us h5:hover
+.about-us .list-unstyled li
+{line-height: 34px;}
+.about-us p span
 {
  color: black;
- font-weight: bold
+ font-size: 15px;
+  text-decoration: underline;
+}
+.about-us .lead
+{line-height: 40px;}
+
+/*End about */
+/* Start Design*/
+.Designes
+{
+ background: url("file:///C:/Users/Smart/Downloads/image/apple-black-coffee-business-461064.jpg") no-repeat center center ;
+ 
+}
+.design-us hr
+{
+ width: 38%;
+ float: left;
+ margin-top: 0px;
+}
+.design-us span
+{font-size: 22px;}
+.design-us .list-unstyled
+{line-height: 33px;margin-left: -4px;}
+.design-us .list-unstyled span
+{
+ color: red;
+ font-size: 15px;
+ margin-right: 5px;
+}
+.design-us ol
+{margin-left: -29px;}
+.design-us ol li h6
+{
+font-size: 14px;
+ margin-top: 21px;
+}
+.design-us ol[type="a"]
+{
+ font-weight: 600;
+ margin-left: -21px;
+}
+.design-us ol[type="a"] .glyphicon
+{
+ position: relative;
+    top: 23px;
+    right: 37px;
+    font-size: 15px;
+    color: red;
+}
+.design-us p span
+{
+ color: black;
+ font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
-form
+
+/* End Design*/
+/*Start blog*/
+.blogs
 {
- margin-top: 118px;
- margin-left: 40px;
- font-size: 19px;
+ background: url("file:///C:/Users/Smart/Downloads/alphabet-arts-and-crafts-blog-459688.jpg") no-repeat center center ;
+}
+.blog-us h1
+{font-weight: 700;font-size: 33px}
+.blog-us hr
+{
+ width: 90%;
+ float: left;
+ margin-top: 0px;
+}
+.blog-us span
+{font-size: 22px;font-weight: 700;}
+.blog-us .list-unstyled span
+{
+ color: red;
+ font-size: 15px;
+ margin-right: 5px;
+}
+.about-us .list-unstyled li
+{line-height: 34px;}
+.about-us p span
+{
+ color: black;
+ font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.about-us .lead
+{line-height: 40px;}
+
+/*End blog*/
+/* Start services*/
+.services
+{
+ background: url("file:///C:/Users/Smart/Downloads/image/apple-computer-desk-209151.jpg") no-repeat center center ;
+}
+.service-us h1
+{font-weight: 700;font-size: 34px;}
+.service-us h3
+{font-weight: 700;font-size: 22px;}
+.service-us hr
+{
+ width: 88%;
+ float: left;
+ margin-top: 0px;
 
 }
-form input
+.service-us span
 {
- width: 40%;
- padding: 10px;
- border: 1px solid #4daddc;
+ color: #F44336;
+font-size: 15px;
+font-weight: 700;
+position: relative;
+top: 0;
+right: 4px;
+}
+.service-us .list-unstyled
+{line-height: 33px;margin-left: -4px;}
+
+.dservice-us .list-unstyled span
+{
+ color: red;
+ font-size: 15px;
+ margin-right: 5px;
+}
+.service-us ol
+{margin-left: -29px;}
+.service-us ol li h6
+{
+font-size: 14px;
+ margin-top: 21px;
+}
+.service-us ol[type="a"]
+{font-weight: 600; margin-left: -21px;}
+.service-us ol[type="a"] .glyphicon
+{
+position: relative;
+top: 23px;
+right: 37px;
+font-size: 15px;
+color: red;
+}
+.service-us p span
+{
+color: black;
+font-size: 15px;
+font-weight: 600;
+text-decoration: underline;
+}
+
+/*End services*/
+/* Start Samples*/
+.samples
+{
+background-color:#cccccc00;
+min-height:421px;
+margin-top: 80px;
+}
+.samples .our-samples{ min-height:421px;}
+.our-samples .list-unstyled
+{
+display: flex;
+color: darkgray;
+font-size: 20px;
+ margin-top: 72px;
 
 }
-form select
+.our-samples .list-unstyled li a
 {
- width: 12%;
- padding: 5px;
+color: #9E9E9E;
+text-decoration: none;
+margin-left: 20px;
 }
-form textarea
+.our-skills
+{margin-top: -226px;}
+.our-skills .our-print
+{background-color: #ccc;}
+.our-skills .our-print:hover
 {
- width: 37%;
- height: 164px;
+ background-color: #009688;
+ color: white;
+ opacity: .7
 }
-form button
-{
-margin-left: 20%;
-width: 11%;
-background-color: #428bca;
-color: white;
-padding: 10px;
-border: none;
-}
+.our-skills .our-print img
+{height: 250px;}
+.our-skills .our-print h2,h6
+{ margin-left: 7px;}
 
-.glyphicon
+.our-skills .our-logo
+{background-color: #ccc;}
+.our-skills .our-logo:hover
 {
- margin-top: -66px;
-float: right;
-margin-right: 27px;
-font-size: 31px;
-color: #31708f;
+ background-color: #009688;
+ color: white;
+ opacity: .7
 }
-.glyphicon:hover
+.our-skills .our-logo img
+{height: 250px;}
+.our-skills .our-logo h2,h6
+{margin-left: 7px;}
+.our-skills .our-website
+{background-color: #ccc;}
+.our-skills .our-website:hover
+{
+ background-color: #009688;
+ color: white;
+ opacity: .7
+}
+.our-skills .our-website img
+{ height: 250px;}
+.our-skills .our-website h2,h6
+{ margin-left: 7px;}
+
+
+/* End Samples*/
+/*Start Contact*/
+.contact
+{
+ background: url("file:///C:/Users/Smart/Downloads/image/Reach-us-1350x400.jpg") no-repeat center center ;
+}
+.our-contact
+{font-size: 50px;}
+
+.contact-us h1
 {
  font-size: 33px;
-color: orange;
+ color: black;
+ font-weight: 600;
 }
-
-.main
+.contact-us hr
 {
- margin-top: 10%;
-    text-align: center;
-    font-size: 30px;
-    color: #31708f;
-    font-family: cursive;
-}
-.main:hover
-{
- color: orange;
- font-weight: bold;
- font-size: 37px;
-font-family: inherit
-}
-
-table
-{
-  margin-top: 11%;
-  margin-left: 13%;
-}
-th
-{
- text-align: center;
- font-size: 20px;
-
-}
-td
-{
- padding: 2px;
- text-align: center;
- font-size: 18px;
- color: #20688a;
-}
-.detalis
-{
-margin-left: 62%;
-background-color: #1b4c65;
-color: white;
-width: 32%;
-font-size: 20px;
-position: relative;
-top: -296px;
-}
-
-.detalis span
-{
- margin-left: 21px;
-
-}
-
-.detalis-us button
-{
- margin-left: 41%;
-    background-color: darkorange;
-    color: white;
-    padding: 18px;
-    width: 13%;
-    margin-top: -52px;
-}
-.footer-us
-{
- background-color: #002638;
- min-height: 200px;
- margin-top: 30px;
-  webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-}
-
-.footer
-{
-     padding-top: 50px;
-}
-.footer a
-{
-    padding: 20px;
-    font-size: 17px;
-
-}
-.footer a:hover
-{
- color: white
-}
-.text-center
-{
- margin-top: 10%;
- color: white
-}
-
-.footer-us .list-unstyled
-{
-    padding-left: 0;
-    list-style: none;
-    display: flex;
-    margin-top: 30px;
-}
-
-.footer-us .list-unstyled li
-{
- padding: 10px
-}
-.footer-us input[type='text']
-{
- float: right;
-    margin-top: -6%;
-    margin-right: 57px;
-    padding: 10px;
-    width: 22%;
-}
-.footer-us input[type='submit']
-{
-     float: right;
-    margin-top: -6%;
-    padding: 12px;
-    margin-right: -13px;
-    background-color: red;
-    border: none;
-    color: white;
-}
-.infor .img-thumbnail
-{
-    height: 404px;
-    width: 100%;
-}
-.infor h4
-{
-     margin-left: 10px;
-    font-size: 25px;
-    color: #ff870c;
-    font-weight: bold;
-}
-.infor hr
-{
- width: 7%;
- margin-left: 4px;
- margin-top: 4px;
-margin-bottom: 20px;
+margin-top: -7px;
+margin-bottom: 0px;
 border: 0;
-border-top: 2px solid orange;
+border-top: 3px solid #009688;
+width: 19%;
+float: left;
 }
+.contact-us form
+{ margin-top: 53px;}
 
-#scroll-top
+.contact-us form input
 {
-     float: right;
-    position: relative;
-    top: -69px;
-    color: orange;
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ margin-bottom: 20px;
+}
+.contact-us form label
+{
+ display: inline-block;
+ max-width: 100%;
+ margin-bottom: 5px;
+ font-weight: bold;
+ color: #9a9292;
+ letter-spacing: 1px;
+}
+.contact-us form .form-control
+{
+ padding: 28px 12px;
+
+}
+.contact-us form input[type="button"]
+{
+ width: 19%;
+ background-color: #009688;
+ color: white;
+ font-weight: 900;
+ letter-spacing: 2px;
+}
+.contact-us form input[type="button"]:hover
+{
+  background-color: #ccc;
+  color: black;
+
 }
 
 
-@media (min-width: 768px) {
-  .navbar-nav {
-    float: left;
-  }
-  
-  .lead {
-     font-size: 19px;
-    
-  }
+/*End Contact*/
+
+
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand
+{
+ margin-left: -15px;
+ color:#ffffff;
+  font-size: 37px;
+  font-family: serif;
 }
-  
+.navbar-inverse{background-color: #009688;}
+.navbar-inverse .navbar-nav > li > a
+{
+ color:#b1aaaa;
+}
+.dropdown-menu .divider
+{
+ height: 3px;
+ margin: 9px 0;
+ overflow: hidden;
+ background-color: #009688;
+}
+img
+{width: 100%;height: 476px;}
+.about h2
+{color: #f92323;font-family: sans-serif;}
+.about h1
+{font-size: 30px;font-weight: bolder;}
+.about .lead
+{font-size: 13px;}
+.about .lead span
+{
+ font-weight: 900;
+ text-decoration: underline;
+ font-size: 12px
+}
+.header .text-center h1
+{font-weight: bold;font-family: sans-serif;}
+ .header hr
+ {
+  margin-top: 11px;
+  border-top: 4px solid #009688;
+  width: 16%;
+ }
+.glyphicon:hover
+ {color:#00BCD4;}
+ .feat h3
+ {
+  font-size: 22px;
+  color: #0fc1b1;
+  font-weight: bolder;
+ }
+ .feat .lead
+ {font-size: 15px;line-height: 26px;}
+.center-block 
+ {
+width: 20%;
+height: 106px;
+border: 2px solid #9E9E9E;
+display: inline-block;
+margin-left: 24px;
+ }
+ .center-block:hover
+ {border: 5px solid #009688;}
+.our-team hr
+{
+ margin-top: -4px;
+ border: 3px solid #009688;
+ width: 44%;
+}
+.our-team .col-lg-7 img:hover
+{
+  border: 3px solid #009688;
+  width: 50%;
+  position: relative;
+  top: 0px;
+  left: 25%
+}
+ p span{font-size: 20px;font-weight: 900;}
+ .lead{font-size: 15px}
+ .fields
+ {margin-top: 273px;}
  
+.fields .skill
+{
+background: #ccc;
+height: 238px;
+padding: 15px;
+}
+.fields .skill h1
+{font-size: 16px;font-weight: bold;}
+.fields h1
+ {font-size: 27px;font-weight: 700;margin-top: 9px;}
+ .skill .list-unstyled
+ {display: flex;}
+ .skill .list-unstyled li
+  {margin-left:12px}
+ .fields a
+ {color: #1d7cc7;}
+ .fields a:hover
+ {color:white;border-radius: 50%}
+
+ .fields .skill-1 img
+ {
+  width: 103%;
+  height: 174px;
+  margin-top: -8px;
+  margin-left: -9px;
+ }
+ .fields .skill-1 img :hover
+ {background-color: rgba(2,2,2,0.5);border:1px solid #AAA}
+  .fields .skill-2 img
+ {
+  width: 100%;
+  height: 190px;
+  margin-top: -9px;
+  margin-left: -7px;
+ }
+ .fields .skill-2 img :hover
+ {background-color: rgba(2,2,2,0.5);border:1px solid #AAA}
+.fields .skill-1 h1{font-size: 20px}
+.skill-1 .list-unstyled{display: flex;}
+ .skill-1 .list-unstyled li{margin-left: 12px}
+  .skill-1
+  { padding: 10px;background: #f1ecec;width: 94%}
+   .skill-1
+  {background: #eae7e7;padding: 13px;}
+  .skill-1:hover
+  {background-color: rgba(1,1,1,0.5); border: 2px solid #009688;}
+  .skill-2
+  { background: #eae7e7; padding: 13px; }
+  .skill-2:hover
+  {
+   background-color: rgba(1,1,1,0.5);
+   border: 2px solid #009688;
+  }
+  .fields .skill-2 h1
+{font-size: 20px;padding-left: 10px}
+
+.fields .skill-2 h6{padding-left: 10px}
+.skill-2 .list-unstyled{display: flex;}
+ .skill-2 .list-unstyled li{margin-left: 12px}
+  .footer
+  {
+   background-color: #333;
+    margin-top: 48px;
+   min-height:300px;
+    display: block
+  }
+  .footer span
+  {
+    color: #ef0a0a;
+    font-weight: 800;
+    position: relative;
+    top: 27px;
+  }
+  .footer hr
+  {
+   margin-top: 34px;
+    border-top: 1px solid #009688;
+  }
+  .footer .lead
+  {
+   color: white;
+
+  }
+  .footer a
+  {
+   color: white;
+    display: block;
+  }
+  .footer .two-columns li
+  {
+    width: 50%;
+    float: left;
+    padding: 6px 0px;
+  }
+  .footer h6
+  {
+   color: white;
+   font-size: 15px;
+   
+  }
+  .footer .fa
+  {
+   color: white;
+    font-size: 14px;
+  }
+  .footer .fa:hover
+  {
+   color: #ccc
+  }
+  .form-inline
+  {
+    width: 101%;
+    margin-left: 6px;
+  }
+  .form-inline .form-control
+  {
+   width: 80%;
+  }
+  .input-lg
+  {
+   border-radius:0;
+
+  }
+  .btn-lg, .btn-group-lg > .btn
+  {
+   border-radius:0;
+   border-color: #F44336;
+  }
+ .btn-lg, .btn-group-lg > .btn:hover
+  {
+  background-color: red;
+
+
+  }
+   .social-list
+  {
+   display: flex;
+   margin-top: 23px;
+
+  }
+  .footer img
+  {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-left: 16px;
+
+  }
+  .footer img:hover
+  {
+   background-color:white;
+    border: 5px solid #fff;
+   
+  }
+  .footer .text-center
+  {
+   margin-top: 93px;
+    font-size: 12px;
+    color: white
+  }
+.loading-overlay
+{
+  background:#009688;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+.spinner {
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  border-radius: 100%;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+@media(max-width:767px){
+ .our-skills .col-xs-12
+ {
+   margin-top: 15px;
+
+ }
+ .form-inline .form-control
+  {
+   width: 60%;
+  }
+.btn-lg, .btn-group-lg > .btn
+{
+ position: relative;
+ top: -45px;
+ left: 60%;
+}
+
+}
+@media(min-width:768px){
+ .navbar-nav.navbar-right:last-child
+ {
+    margin-top: -50px;
+ }
+}
+
+@media(min-width:991px){
+ .navbar-nav.navbar-right:last-child
+ {
+  margin-top: 0px;
+
+ }
+}
